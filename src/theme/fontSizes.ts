@@ -4,5 +4,6 @@ export const fontSizes = {
   sm: rem(11),
   md: rem(14),
   lg: rem(16),
-  xl: rem(20),
+  xl: rem(24),
+  xxl: rem(48),
 };

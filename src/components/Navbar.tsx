@@ -104,6 +104,16 @@ export default function Navbar() {
               </Link>
             </>
           ))}
+          <Link
+            style={{
+              textDecoration: "none",
+              fontSize: theme.fontSizes.md,
+              color: theme.colors.black[9],
+            }}
+            href="/plans"
+          >
+            {t("plans")}
+          </Link>
         </Stack>
       );
     }
@@ -233,18 +243,6 @@ export default function Navbar() {
                 text: t("linkedinPostGenerator"),
               },
             ])}
-
-            <Box
-              component="a"
-              style={{
-                textDecoration: "none",
-                fontSize: theme.fontSizes.md,
-                color: theme.colors.black[9],
-              }}
-              href="/plans"
-            >
-              {t("plans")}
-            </Box>
           </Stack>
         </Drawer>
       )}

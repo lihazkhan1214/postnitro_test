@@ -1,6 +1,6 @@
 "use client";
 import { usePathname } from "@/i18n/navigation";
-import { Menu, UnstyledButton, Image } from "@mantine/core";
+import { Menu, UnstyledButton, Image, useMantineTheme } from "@mantine/core";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 const languages = [
@@ -13,6 +13,7 @@ export function LanguageSwitcher() {
   const locale = useLocale();
   const pathname = usePathname();
   const currentLang = languages.find((l) => l.code === locale);
+  const theme = useMantineTheme();
 
   return (
     <>
@@ -50,6 +51,12 @@ export function LanguageSwitcher() {
               component={Link}
               href={`/${lang.code}${pathname}`}
               locale={lang.code}
+              style={{
+                textDecoration: "none",
+                fontSize: theme.fontSizes.md,
+                color: theme.colors.black[9],
+              }}
+              fw={600}
             >
               {lang.label}
             </Menu.Item>

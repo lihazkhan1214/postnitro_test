@@ -21,7 +21,7 @@ export const colors = {
     "#6B7280", // 5
     "#4B5563", // 6
     "#374151", // 7
-    "#1F2937", // 8
+    "#475467", //8
     "#EDEDED", // 9 - light gray added
   ] as const,
 
