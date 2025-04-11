@@ -1,0 +1,18 @@
+{
+  "en": {
+    "name": "English",
+    "flag": "🇺🇸"
+  },
+  "es": {
+    "name": "Spanish",
+    "flag": "🇪🇸"
+  },
+  "fr": {
+    "name": "French",
+    "flag": "🇫🇷"
+  },
+  "zh": {
+    "name": "Chinese",
+    "flag": "🇨🇳"
+  }
+}

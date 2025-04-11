@@ -1,6 +1,24 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+  "Navbar": {
+    "gettingStarted": "Getting Started",
+    "docs": "Docs",
+    "blog": "Blog",
+    "affiliates": "Affiliates",
+    "products": "Products",
+    "freeTools": "Free Tools",
+    "plans": "Plans",
+    "createImagePost": "Create Image Post",
+    "createCarousel": "Create Carousel",
+    "linkedinCarousel": "LinkedIn Carousel",
+    "instagramCarousel": "Instagram Carousel",
+    "tiktokCarousel": "TikTok Carousel",
+    "twitterCarousel": "Twitter Carousel",
+    "embed": "Embed",
+    "extension": "Extension",
+    "twitterBannerMaker": "Twitter Banner Maker",
+    "linkedinBannerMaker": "LinkedIn Banner Maker",
+    "instagramGridMaker": "Instagram Grid Maker",
+    "linkedinTextFormatter": "LinkedIn Text Formatter",
+    "linkedinPostGenerator": "LinkedIn Post Generator"
   }
 }

@@ -8,7 +8,7 @@ import {
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { theme } from "../../../theme";
+import { theme } from "@/theme";
 
 export const metadata = {
   title: "Mantine Next.js template",

@@ -1,0 +1,24 @@
+{
+  "Navbar": {
+    "gettingStarted": "Empezar",
+    "docs": "Documentación",
+    "blog": "Blog",
+    "affiliates": "Afiliados",
+    "products": "Productos",
+    "freeTools": "Herramientas Gratis",
+    "plans": "Planes",
+    "createImagePost": "Crear Imagen",
+    "createCarousel": "Crear Carrusel",
+    "linkedinCarousel": "Carrusel LinkedIn",
+    "instagramCarousel": "Carrusel Instagram",
+    "tiktokCarousel": "Carrusel TikTok",
+    "twitterCarousel": "Carrusel Twitter",
+    "embed": "Insertar",
+    "extension": "Extensión",
+    "twitterBannerMaker": "Creador de Banner Twitter",
+    "linkedinBannerMaker": "Creador de Banner LinkedIn",
+    "instagramGridMaker": "Creador de Cuadrícula Instagram",
+    "linkedinTextFormatter": "Formateador de Texto LinkedIn",
+    "linkedinPostGenerator": "Generador de Publicaciones LinkedIn"
+  }
+}

@@ -1,6 +1,24 @@
 {
-  "HomePage": {
-    "title": "franchise",
-    "about": "franchise"
+  "Navbar": {
+    "gettingStarted": "Commencer",
+    "docs": "Docs",
+    "blog": "Blog",
+    "affiliates": "Affiliés",
+    "products": "Produits",
+    "freeTools": "Outils Gratuits",
+    "plans": "Forfaits",
+    "createImagePost": "Créer une Image",
+    "createCarousel": "Créer un Carrousel",
+    "linkedinCarousel": "Carrousel LinkedIn",
+    "instagramCarousel": "Carrousel Instagram",
+    "tiktokCarousel": "Carrousel TikTok",
+    "twitterCarousel": "Carrousel Twitter",
+    "embed": "Intégrer",
+    "extension": "Extension",
+    "twitterBannerMaker": "Créateur de Bannière Twitter",
+    "linkedinBannerMaker": "Créateur de Bannière LinkedIn",
+    "instagramGridMaker": "Créateur de Grille Instagram",
+    "linkedinTextFormatter": "Formateur de Texte LinkedIn",
+    "linkedinPostGenerator": "Générateur de Publications LinkedIn"
   }
 }

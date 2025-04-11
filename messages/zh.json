@@ -1,0 +1,24 @@
+{
+  "Navbar": {
+    "gettingStarted": "开始使用",
+    "docs": "文档",
+    "blog": "博客",
+    "affiliates": "合作伙伴",
+    "products": "产品",
+    "freeTools": "免费工具",
+    "plans": "计划",
+    "createImagePost": "创建图片帖子",
+    "createCarousel": "创建轮播",
+    "linkedinCarousel": "LinkedIn 轮播",
+    "instagramCarousel": "Instagram 轮播",
+    "tiktokCarousel": "TikTok 轮播",
+    "twitterCarousel": "Twitter 轮播",
+    "embed": "嵌入",
+    "extension": "扩展",
+    "twitterBannerMaker": "Twitter 横幅制作器",
+    "linkedinBannerMaker": "LinkedIn 横幅制作器",
+    "instagramGridMaker": "Instagram 网格制作器",
+    "linkedinTextFormatter": "LinkedIn 文本格式化工具",
+    "linkedinPostGenerator": "LinkedIn 帖子生成器"
+  }
+}
