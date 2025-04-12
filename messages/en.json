@@ -20,5 +20,15 @@
     "instagramGridMaker": "Instagram Grid Maker",
     "linkedinTextFormatter": "LinkedIn Text Formatter",
     "linkedinPostGenerator": "LinkedIn Post Generator"
+  },
+  "Hero": {
+    "tagline": "AI-Powered Carousel Generator for Viral Content",
+    "headline": "AI-Powered Carousel Generator for Instagram, LinkedIn & More",
+    "description": "PostNitro's AI-powered platform creates stunning carousels for Instagram, LinkedIn, TikTok, and more. Boost your social media engagement with customizable, brand-aligned content generated in minutes.",
+    "ratingLabel": "Join 32,000+ Creators",
+    "embeddedInto": "Embedded Into",
+    "platformCount": "40+ SMM Platforms",
+    "ctaButton": "Start Creating Free Carousels",
+    "footerNote": "No Credit Card Required | Free Downloads Every Month"
   }
 }

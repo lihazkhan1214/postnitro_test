@@ -122,14 +122,17 @@ export default function Navbar() {
   return (
     <Box
       component="header"
-      px="xl"
       py="sm"
+      px="lg"
       style={{
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
         flexWrap: "wrap",
         zIndex: 100,
+        position: "sticky",
+        width: "100%",
+        top: "0px",
       }}
     >
       {isDesktop ? (

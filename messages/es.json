@@ -20,5 +20,15 @@
     "instagramGridMaker": "Creador de Cuadrícula Instagram",
     "linkedinTextFormatter": "Formateador de Texto LinkedIn",
     "linkedinPostGenerator": "Generador de Publicaciones LinkedIn"
+  },
+  "Hero": {
+    "tagline": "Generador de Carruseles con IA para Contenido Viral",
+    "headline": "Generador de Carruseles con IA para Instagram, LinkedIn y más",
+    "description": "La plataforma impulsada por IA de PostNitro crea carruseles impresionantes para Instagram, LinkedIn, TikTok y más. Aumenta tu interacción en redes sociales con contenido personalizable alineado con tu marca, generado en minutos.",
+    "ratingLabel": "Únete a más de 32,000 Creadores",
+    "embeddedInto": "Integrado en",
+    "platformCount": "40+ Plataformas SMM",
+    "ctaButton": "Empieza a Crear Carruseles Gratis",
+    "footerNote": "No se Requiere Tarjeta de Crédito | Descargas Gratuitas Cada Mes"
   }
 }

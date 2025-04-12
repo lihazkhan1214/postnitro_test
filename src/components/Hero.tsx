@@ -5,6 +5,7 @@ import {
   Button,
   ColorSwatch,
   Group,
+  Space,
   Stack,
   Text,
   Title,
@@ -12,13 +13,29 @@ import {
 } from "@mantine/core";
 import Image from "next/image";
 import Link from "next/link";
-import { Star } from "phosphor-react";
+import { ArrowRight, Check, Star } from "phosphor-react";
 import React from "react";
+import Navbar from "./Navbar";
+import { useTranslations } from "next-intl";
 function Hero() {
   const theme = useMantineTheme();
+  const t = useTranslations("Hero");
   return (
     <>
-      <Stack align="center" justify="center" gap="lg" px="xl" py="sm">
+      <Stack
+        gap="lg"
+        px="xl"
+        align="center"
+        justify="center"
+        style={{
+          backgroundImage: 'url("/grid-box.svg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          minHeight: "80vh",
+          textAlign: "center",
+        }}
+      >
         <Group align="center" justify="center">
           <Title
             order={5}
@@ -33,7 +50,7 @@ function Hero() {
             }}
           >
             <ColorSwatch size={12} color={theme.colors.brand[5]} />
-            AI-Powered Carousel Generator for Viral Content
+            {t("tagline")}
           </Title>
         </Group>
         <Title
@@ -42,7 +59,7 @@ function Hero() {
           fz={theme.fontSizes.xxl}
           maw={750}
         >
-          AI-Powered Carousel Generator for Instagram, LinkedIn & More
+          {t("headline")}
         </Title>
         <Title
           maw={840}
@@ -50,20 +67,17 @@ function Hero() {
           fw={500}
           style={{ color: `${theme.colors.gray[8]}`, textAlign: "center" }}
         >
-          PostNitro's AI-powered platform creates stunning carousels for
-          Instagram, LinkedIn, TikTok, and more. Boost your social media
-          engagement with customizable, brand-aligned content generated in
-          minutes.
+          {t("description")}
         </Title>
-        <Group align="center" justify="center">
-          <Group>
+        <Group justify="center">
+          <Group justify="center">
             <Image
               src="/user-collected.webp"
               alt="not found"
               width={180}
               height={40}
             />
-            <Stack justify="center" gap={2}>
+            <Stack gap={2}>
               <Group gap={2} fz={theme.fontSizes.md} fw={600}>
                 {[0, 1, 2, 3, 4].map((item, index) => (
                   <Star key={index} size={20} color="yellow" weight="fill" />
@@ -71,26 +85,29 @@ function Hero() {
                 5.0
               </Group>
               <Text
-                fz={theme.fontSizes.xs}
+                fz={theme.fontSizes.md}
                 style={{ color: `${theme.colors.gray[8]}` }}
               >
-                Join 32,000+ Creators
+                {t("ratingLabel")}
               </Text>
             </Stack>
           </Group>
-          <Group>
-            <Stack justify="center" gap={2}>
+          <Group justify="center">
+            <Stack gap={2}>
               <Text
                 fz={theme.fontSizes.lg}
-                style={{ color: `${theme.colors.black[9]}`, fontWeight: "600" }}
+                style={{
+                  color: `${theme.colors.black[9]}`,
+                  fontWeight: "600",
+                }}
               >
-                Embedded Into
+                {t("embeddedInto")}
               </Text>
               <Text
-                fz={theme.fontSizes.xs}
+                fz={theme.fontSizes.md}
                 style={{ color: `${theme.colors.gray[8]}` }}
               >
-                40+ SMM Platforms
+                {t("platformCount")}
               </Text>
             </Stack>
             <Image
@@ -104,20 +121,29 @@ function Hero() {
         <Button
           component={Link}
           href="/app/carousel-maker"
-          // leftSection={<Sparkle size={20} />}
+          rightSection={<ArrowRight size={20} weight="bold" />}
           bg={theme.colors.brand[5]}
           fz={theme.fontSizes.md}
           radius="md"
         >
-          Start Creating Free Carousels
+          {t("ctaButton")}
         </Button>
         <Title
           fw={500}
           order={4}
-          style={{ color: `${theme.colors.gray[8]}`, textAlign: "center" }}
+          style={{
+            color: `${theme.colors.gray[8]}`,
+            textAlign: "center",
+            display: "flex",
+            alignItems: "center",
+            gap: "8px",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "center",
+          }}
         >
-          No Credit Card Required | Free Downloads Every Month" text below the
-          button
+          <Check size={20} color={theme.colors.gray[8]} />
+          <span style={{ lineHeight: 1.4 }}>{t("footerNote")}</span>
         </Title>
       </Stack>
     </>

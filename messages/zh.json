@@ -20,5 +20,15 @@
     "instagramGridMaker": "Instagram 网格制作器",
     "linkedinTextFormatter": "LinkedIn 文本格式化工具",
     "linkedinPostGenerator": "LinkedIn 帖子生成器"
+  },
+  "Hero": {
+    "tagline": "AI驱动的病毒式轮播图生成器",
+    "headline": "AI驱动的轮播图生成器，适用于 Instagram、LinkedIn 等平台",
+    "description": "PostNitro 的 AI 平台可为 Instagram、LinkedIn、TikTok 等生成令人惊艳的轮播图。几分钟内生成可自定义、符合品牌风格的内容，提升社交媒体互动率。",
+    "ratingLabel": "已有 32,000+ 创作者加入",
+    "embeddedInto": "已集成于",
+    "platformCount": "40+ 社交营销平台",
+    "ctaButton": "开始免费创建轮播图",
+    "footerNote": "无需信用卡 | 每月免费下载"
   }
 }

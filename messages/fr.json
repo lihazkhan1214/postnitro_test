@@ -20,5 +20,15 @@
     "instagramGridMaker": "Créateur de Grille Instagram",
     "linkedinTextFormatter": "Formateur de Texte LinkedIn",
     "linkedinPostGenerator": "Générateur de Publications LinkedIn"
+  },
+  "Hero": {
+    "tagline": "Générateur de Carrousel IA pour un Contenu Viral",
+    "headline": "Générateur de Carrousel IA pour Instagram, LinkedIn et plus",
+    "description": "La plateforme alimentée par l'IA de PostNitro crée de superbes carrousels pour Instagram, LinkedIn, TikTok, et plus encore. Augmentez votre engagement social avec du contenu personnalisable et aligné sur votre marque, généré en quelques minutes.",
+    "ratingLabel": "Rejoignez plus de 32 000 créateurs",
+    "embeddedInto": "Intégré à",
+    "platformCount": "40+ plateformes SMM",
+    "ctaButton": "Commencez à créer des carrousels gratuitement",
+    "footerNote": "Aucune carte de crédit requise | Téléchargements gratuits chaque mois"
   }
 }
